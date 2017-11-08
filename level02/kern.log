@@ -1,0 +1,410 @@
+Nov  8 17:18:33 tvermeil kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Nov  8 17:18:33 tvermeil kernel: Inspecting /boot/System.map-4.13.0-thor_kernel-tvermeil
+Nov  8 17:18:33 tvermeil kernel: Inspecting /usr/src/linux/System.map
+Nov  8 17:18:33 tvermeil kernel: Cannot find map file.
+Nov  8 17:18:33 tvermeil kernel: Loaded 44849 symbols from 1 module.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] random: get_random_bytes called from start_kernel+0x2b/0x3fc with crng_init=0
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Linux version 4.13.0-thor_kernel-tvermeil (root@tvermeil) (gcc version 6.3.0 (GCC)) #3 SMP Wed Nov 8 17:10:53 CET 2017
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.13.0-thor_kernel-tvermeil root=/dev/sda3 ro
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] NX (Execute Disable) protection: active
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] random: fast init done
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] SMBIOS 2.5 present.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] e820: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] MTRR default type: uncachable
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] MTRR variable ranges disabled:
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] MTRR: Disabled
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 24576
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BRK [0x0215c000, 0x0215cfff] PGTABLE
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BRK [0x0215d000, 0x0215dfff] PGTABLE
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BRK [0x0215e000, 0x0215efff] PGTABLE
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BRK [0x0215f000, 0x0215ffff] PGTABLE
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] BRK [0x02160000, 0x02160fff] PGTABLE
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: DSDT 0x000000007FFF0470 0021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: FACS 0x000000007FFF0200 000040
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: FACS 0x000000007FFF0200 000040
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: APIC 0x000000007FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: SSDT 0x000000007FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] No NUMA configuration found
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x7ffec000-0x7ffeffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Zone ranges:
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   Normal   empty
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Movable zone start for each node
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Early memory node ranges
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] On node 0 totalpages: 524174
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA zone: 21 pages reserved
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA32 zone: 8128 pages used for memmap
+Nov  8 17:18:33 tvermeil kernel: [    0.000000]   DMA32 zone: 520176 pages, LIFO batch:31
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: IRQ0 used by override.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ACPI: IRQ9 used by override.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] e820: [mem 0x80000000-0xfebfffff] available for PCI devices
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:1 nr_node_ids:1
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] percpu: Embedded 37 pages/cpu @ffff88007fc00000 s110872 r8192 d32488 u2097152
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] pcpu-alloc: s110872 r8192 d32488 u2097152 alloc=1*2097152
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515961
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Policy zone: DMA32
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-4.13.0-thor_kernel-tvermeil root=/dev/sda3 ro
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Memory: 2045820K/2096696K available (9678K kernel code, 1436K rwdata, 3172K rodata, 1184K init, 684K bss, 50876K reserved, 0K cma-reserved)
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Hierarchical RCU implementation.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] ^IRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=1.
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] NR_IRQS: 4352, nr_irqs: 256, preallocated irqs: 16
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] Console: colour VGA+ 80x25
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] console [tty0] enabled
+Nov  8 17:18:33 tvermeil kernel: [    0.000000] tsc: Fast TSC calibration failed
+Nov  8 17:18:33 tvermeil kernel: [    0.004000] tsc: Unable to calibrate against PIT
+Nov  8 17:18:33 tvermeil kernel: [    0.005000] tsc: using PMTIMER reference calibration
+Nov  8 17:18:33 tvermeil kernel: [    0.005000] tsc: Detected 2823.118 MHz processor
+Nov  8 17:18:33 tvermeil kernel: [    0.006000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5646.23 BogoMIPS (lpj=2823118)
+Nov  8 17:18:33 tvermeil kernel: [    0.007004] pid_max: default: 32768 minimum: 301
+Nov  8 17:18:33 tvermeil kernel: [    0.007642] ACPI: Core revision 20170531
+Nov  8 17:18:33 tvermeil kernel: [    0.008536] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov  8 17:18:33 tvermeil kernel: [    0.009050] Security Framework initialized
+Nov  8 17:18:33 tvermeil kernel: [    0.010615] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.011000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.011598] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.012211] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.013161] CPU: Physical Processor ID: 0
+Nov  8 17:18:33 tvermeil kernel: [    0.014000] mce: CPU supports 0 MCE banks
+Nov  8 17:18:33 tvermeil kernel: [    0.014336] process: using mwait in idle threads
+Nov  8 17:18:33 tvermeil kernel: [    0.015000] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Nov  8 17:18:33 tvermeil kernel: [    0.015484] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+Nov  8 17:18:33 tvermeil kernel: [    0.028413] Freeing SMP alternatives memory: 36K
+Nov  8 17:18:33 tvermeil kernel: [    0.029352] smpboot: Max logical packages: 1
+Nov  8 17:18:33 tvermeil kernel: [    0.031000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Nov  8 17:18:33 tvermeil kernel: [    0.042000] smpboot: CPU0: Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz (family: 0x6, model: 0x3a, stepping: 0x9)
+Nov  8 17:18:33 tvermeil kernel: [    0.042111] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+Nov  8 17:18:33 tvermeil kernel: [    0.043439] Hierarchical SRCU implementation.
+Nov  8 17:18:33 tvermeil kernel: [    0.044511] smp: Bringing up secondary CPUs ...
+Nov  8 17:18:33 tvermeil kernel: [    0.045006] smp: Brought up 1 node, 1 CPU
+Nov  8 17:18:33 tvermeil kernel: [    0.046000] smpboot: Total of 1 processors activated (5646.23 BogoMIPS)
+Nov  8 17:18:33 tvermeil kernel: [    0.046680] devtmpfs: initialized
+Nov  8 17:18:33 tvermeil kernel: [    0.047143] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Nov  8 17:18:33 tvermeil kernel: [    0.048150] futex hash table entries: 256 (order: 2, 16384 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.049041] RTC time: 16:18:30, date: 11/08/17
+Nov  8 17:18:33 tvermeil kernel: [    0.050000] NET: Registered protocol family 16
+Nov  8 17:18:33 tvermeil kernel: [    0.050666] cpuidle: using governor menu
+Nov  8 17:18:33 tvermeil kernel: [    0.051004] PCCT header not found.
+Nov  8 17:18:33 tvermeil kernel: [    0.052033] ACPI: bus type PCI registered
+Nov  8 17:18:33 tvermeil kernel: [    0.052729] PCI: Using configuration type 1 for base access
+Nov  8 17:18:33 tvermeil kernel: [    0.055407] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Nov  8 17:18:33 tvermeil kernel: [    0.056062] ACPI: Added _OSI(Module Device)
+Nov  8 17:18:33 tvermeil kernel: [    0.056767] ACPI: Added _OSI(Processor Device)
+Nov  8 17:18:33 tvermeil kernel: [    0.057014] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov  8 17:18:33 tvermeil kernel: [    0.058005] ACPI: Added _OSI(Processor Aggregator Device)
+Nov  8 17:18:33 tvermeil kernel: [    0.059084] ACPI: Executed 1 blocks of module-level executable AML code
+Nov  8 17:18:33 tvermeil kernel: [    0.060785] ACPI: Interpreter enabled
+Nov  8 17:18:33 tvermeil kernel: [    0.061011] ACPI: (supports S0 S5)
+Nov  8 17:18:33 tvermeil kernel: [    0.061634] ACPI: Using IOAPIC for interrupt routing
+Nov  8 17:18:33 tvermeil kernel: [    0.062149] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Nov  8 17:18:33 tvermeil kernel: [    0.068186] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Nov  8 17:18:33 tvermeil kernel: [    0.068851] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Nov  8 17:18:33 tvermeil kernel: [    0.069123] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Nov  8 17:18:33 tvermeil kernel: [    0.070167] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Nov  8 17:18:33 tvermeil kernel: [    0.071096] PCI host bridge to bus 0000:00
+Nov  8 17:18:33 tvermeil kernel: [    0.072005] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Nov  8 17:18:33 tvermeil kernel: [    0.073000] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Nov  8 17:18:33 tvermeil kernel: [    0.073747] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Nov  8 17:18:33 tvermeil kernel: [    0.074050] pci_bus 0000:00: root bus resource [mem 0x80000000-0xffdfffff window]
+Nov  8 17:18:33 tvermeil kernel: [    0.075004] pci_bus 0000:00: root bus resource [bus 00-ff]
+Nov  8 17:18:33 tvermeil kernel: [    0.075684] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Nov  8 17:18:33 tvermeil kernel: [    0.076281] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Nov  8 17:18:33 tvermeil kernel: [    0.076932] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Nov  8 17:18:33 tvermeil kernel: [    0.077401] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Nov  8 17:18:33 tvermeil kernel: [    0.077733] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Nov  8 17:18:33 tvermeil kernel: [    0.078112] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Nov  8 17:18:33 tvermeil kernel: [    0.079002] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Nov  8 17:18:33 tvermeil kernel: [    0.079685] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Nov  8 17:18:33 tvermeil kernel: [    0.080583] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Nov  8 17:18:33 tvermeil kernel: [    0.082030] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe1ffffff pref]
+Nov  8 17:18:33 tvermeil kernel: [    0.092300] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Nov  8 17:18:33 tvermeil kernel: [    0.093127] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.094916] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Nov  8 17:18:33 tvermeil kernel: [    0.100123] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Nov  8 17:18:33 tvermeil kernel: [    0.100990] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Nov  8 17:18:33 tvermeil kernel: [    0.101104] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.102088] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Nov  8 17:18:33 tvermeil kernel: [    0.106218] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Nov  8 17:18:33 tvermeil kernel: [    0.106359] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Nov  8 17:18:33 tvermeil kernel: [    0.106432] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Nov  8 17:18:33 tvermeil kernel: [    0.107103] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Nov  8 17:18:33 tvermeil kernel: [    0.108110] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Nov  8 17:18:33 tvermeil kernel: [    0.114116] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Nov  8 17:18:33 tvermeil kernel: [    0.114634] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Nov  8 17:18:33 tvermeil kernel: [    0.115000] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Nov  8 17:18:33 tvermeil kernel: [    0.115360] pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Nov  8 17:18:33 tvermeil kernel: [    0.116914] pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.119078] pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Nov  8 17:18:33 tvermeil kernel: [    0.123254] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Nov  8 17:18:33 tvermeil kernel: [    0.124525] pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Nov  8 17:18:33 tvermeil kernel: [    0.127762] pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Nov  8 17:18:33 tvermeil kernel: [    0.129953] pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Nov  8 17:18:33 tvermeil kernel: [    0.130454] pci 0000:00:0d.0: reg 0x24: [mem 0xf0840000-0xf0841fff]
+Nov  8 17:18:33 tvermeil kernel: [    0.133239] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Nov  8 17:18:33 tvermeil kernel: [    0.134189] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Nov  8 17:18:33 tvermeil kernel: [    0.134938] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Nov  8 17:18:33 tvermeil kernel: [    0.135085] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Nov  8 17:18:33 tvermeil kernel: [    0.136018] ACPI: Enabled 2 GPEs in block 00 to 07
+Nov  8 17:18:33 tvermeil kernel: [    0.136774] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Nov  8 17:18:33 tvermeil kernel: [    0.137000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Nov  8 17:18:33 tvermeil kernel: [    0.137166] pci 0000:00:02.0: vgaarb: bridge control possible
+Nov  8 17:18:33 tvermeil kernel: [    0.138003] vgaarb: loaded
+Nov  8 17:18:33 tvermeil kernel: [    0.139000] SCSI subsystem initialized
+Nov  8 17:18:33 tvermeil kernel: [    0.139626] libata version 3.00 loaded.
+Nov  8 17:18:33 tvermeil kernel: [    0.139657] ACPI: bus type USB registered
+Nov  8 17:18:33 tvermeil kernel: [    0.140234] usbcore: registered new interface driver usbfs
+Nov  8 17:18:33 tvermeil kernel: [    0.141167] usbcore: registered new interface driver hub
+Nov  8 17:18:33 tvermeil kernel: [    0.142015] usbcore: registered new device driver usb
+Nov  8 17:18:33 tvermeil kernel: [    0.142646] pps_core: LinuxPPS API ver. 1 registered
+Nov  8 17:18:33 tvermeil kernel: [    0.143000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov  8 17:18:33 tvermeil kernel: [    0.144194] PTP clock support registered
+Nov  8 17:18:33 tvermeil kernel: [    0.145401] EDAC MC: Ver: 3.0.0
+Nov  8 17:18:33 tvermeil kernel: [    0.146297] Advanced Linux Sound Architecture Driver Initialized.
+Nov  8 17:18:33 tvermeil kernel: [    0.147015] PCI: Using ACPI for IRQ routing
+Nov  8 17:18:33 tvermeil kernel: [    0.147626] PCI: pci_cache_line_size set to 64 bytes
+Nov  8 17:18:33 tvermeil kernel: [    0.148095] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.148099] e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.148261] NetLabel: Initializing
+Nov  8 17:18:33 tvermeil kernel: [    0.148843] NetLabel:  domain hash size = 128
+Nov  8 17:18:33 tvermeil kernel: [    0.149000] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Nov  8 17:18:33 tvermeil kernel: [    0.149283] NetLabel:  unlabeled traffic allowed by default
+Nov  8 17:18:33 tvermeil kernel: [    0.150386] clocksource: Switched to clocksource refined-jiffies
+Nov  8 17:18:33 tvermeil kernel: [    0.157922] VFS: Disk quotas dquot_6.6.0
+Nov  8 17:18:33 tvermeil kernel: [    0.158017] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.160734] pnp: PnP ACPI init
+Nov  8 17:18:33 tvermeil kernel: [    0.161057] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Nov  8 17:18:33 tvermeil kernel: [    0.161113] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Nov  8 17:18:33 tvermeil kernel: [    0.162215] pnp: PnP ACPI: found 2 devices
+Nov  8 17:18:33 tvermeil kernel: [    0.167942] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Nov  8 17:18:33 tvermeil kernel: [    0.168011] clocksource: Switched to clocksource acpi_pm
+Nov  8 17:18:33 tvermeil kernel: [    0.168598] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  8 17:18:33 tvermeil kernel: [    0.168599] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  8 17:18:33 tvermeil kernel: [    0.168600] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov  8 17:18:33 tvermeil kernel: [    0.168601] pci_bus 0000:00: resource 7 [mem 0x80000000-0xffdfffff window]
+Nov  8 17:18:33 tvermeil kernel: [    0.168638] NET: Registered protocol family 2
+Nov  8 17:18:33 tvermeil kernel: [    0.169046] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.171072] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.171729] TCP: Hash tables configured (established 16384 bind 16384)
+Nov  8 17:18:33 tvermeil kernel: [    0.172060] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.172438] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Nov  8 17:18:33 tvermeil kernel: [    0.173060] NET: Registered protocol family 1
+Nov  8 17:18:33 tvermeil kernel: [    0.173670] RPC: Registered named UNIX socket transport module.
+Nov  8 17:18:33 tvermeil kernel: [    0.174950] RPC: Registered udp transport module.
+Nov  8 17:18:33 tvermeil kernel: [    0.175588] RPC: Registered tcp transport module.
+Nov  8 17:18:33 tvermeil kernel: [    0.176085] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov  8 17:18:33 tvermeil kernel: [    0.176802] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Nov  8 17:18:33 tvermeil kernel: [    0.177070] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Nov  8 17:18:33 tvermeil kernel: [    0.177494] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Nov  8 17:18:33 tvermeil kernel: [    0.180575] PCI: CLS 0 bytes, default 64
+Nov  8 17:18:33 tvermeil kernel: [    0.180707] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 10737418240 ms ovfl timer
+Nov  8 17:18:33 tvermeil kernel: [    0.181484] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Nov  8 17:18:33 tvermeil kernel: [    0.182097] RAPL PMU: hw unit of domain package 2^-0 Joules
+Nov  8 17:18:33 tvermeil kernel: [    0.182736] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Nov  8 17:18:33 tvermeil kernel: [    0.183065] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Nov  8 17:18:33 tvermeil kernel: [    0.185065] Scanning for low memory corruption every 60 seconds
+Nov  8 17:18:33 tvermeil kernel: [    0.185873] audit: initializing netlink subsys (disabled)
+Nov  8 17:18:33 tvermeil kernel: [    0.186066] audit: type=2000 audit(1510157910.186:1): state=initialized audit_enabled=0 res=1
+Nov  8 17:18:33 tvermeil kernel: [    0.187092] workingset: timestamp_bits=56 max_order=19 bucket_order=0
+Nov  8 17:18:33 tvermeil kernel: [    0.189393] NFS: Registering the id_resolver key type
+Nov  8 17:18:33 tvermeil kernel: [    0.190025] Key type id_resolver registered
+Nov  8 17:18:33 tvermeil kernel: [    0.190621] Key type id_legacy registered
+Nov  8 17:18:33 tvermeil kernel: [    0.191142] cryptomgr_test (29) used greatest stack depth: 15448 bytes left
+Nov  8 17:18:33 tvermeil kernel: [    0.191834] cryptomgr_test (31) used greatest stack depth: 15240 bytes left
+Nov  8 17:18:33 tvermeil kernel: [    0.192708] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Nov  8 17:18:33 tvermeil kernel: [    0.193862] io scheduler noop registered
+Nov  8 17:18:33 tvermeil kernel: [    0.194531] io scheduler deadline registered
+Nov  8 17:18:33 tvermeil kernel: [    0.195341] io scheduler cfq registered (default)
+Nov  8 17:18:33 tvermeil kernel: [    0.195931] io scheduler mq-deadline registered
+Nov  8 17:18:33 tvermeil kernel: [    0.196073] io scheduler kyber registered
+Nov  8 17:18:33 tvermeil kernel: [    0.197120] ACPI: AC Adapter [AC] (on-line)
+Nov  8 17:18:33 tvermeil kernel: [    0.197866] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Nov  8 17:18:33 tvermeil kernel: [    0.199079] ACPI: Power Button [PWRF]
+Nov  8 17:18:33 tvermeil kernel: [    0.199747] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Nov  8 17:18:33 tvermeil kernel: [    0.201408] ACPI: Sleep Button [SLPF]
+Nov  8 17:18:33 tvermeil kernel: [    0.202122] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Nov  8 17:18:33 tvermeil kernel: [    0.202847] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+Nov  8 17:18:33 tvermeil kernel: [    0.204075] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Nov  8 17:18:33 tvermeil kernel: [    0.205037] Non-volatile memory driver v1.3
+Nov  8 17:18:33 tvermeil kernel: [    0.205653] Linux agpgart interface v0.103
+Nov  8 17:18:33 tvermeil kernel: [    0.206977] loop: module loaded
+Nov  8 17:18:33 tvermeil kernel: [    0.207595] ahci 0000:00:0d.0: version 3.0
+Nov  8 17:18:33 tvermeil kernel: [    0.208043] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Nov  8 17:18:33 tvermeil kernel: [    0.208928] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Nov  8 17:18:33 tvermeil kernel: [    0.210215] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Nov  8 17:18:33 tvermeil kernel: [    0.211422] scsi host0: ahci
+Nov  8 17:18:33 tvermeil kernel: [    0.212068] ata1: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Nov  8 17:18:33 tvermeil kernel: [    0.213124] ata_piix 0000:00:01.1: version 2.13
+Nov  8 17:18:33 tvermeil kernel: [    0.213428] scsi host1: ata_piix
+Nov  8 17:18:33 tvermeil kernel: [    0.214523] scsi host2: ata_piix
+Nov  8 17:18:33 tvermeil kernel: [    0.215121] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Nov  8 17:18:33 tvermeil kernel: [    0.215843] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Nov  8 17:18:33 tvermeil kernel: [    0.217098] e100: Intel(R) PRO/100 Network Driver, 3.5.24-k2-NAPI
+Nov  8 17:18:33 tvermeil kernel: [    0.217801] e100: Copyright(c) 1999-2006 Intel Corporation
+Nov  8 17:18:33 tvermeil kernel: [    0.218644] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Nov  8 17:18:33 tvermeil kernel: [    0.219071] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Nov  8 17:18:33 tvermeil kernel: [    0.376313] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Nov  8 17:18:33 tvermeil kernel: [    0.378068] ata3.00: configured for UDMA/33
+Nov  8 17:18:33 tvermeil kernel: [    0.526746] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov  8 17:18:33 tvermeil kernel: [    0.527188] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov  8 17:18:33 tvermeil kernel: [    0.527778] ata1.00: 20971520 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Nov  8 17:18:33 tvermeil kernel: [    0.534030] ata1.00: configured for UDMA/133
+Nov  8 17:18:33 tvermeil kernel: [    0.534813] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov  8 17:18:33 tvermeil kernel: [    0.536096] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Nov  8 17:18:33 tvermeil kernel: [    0.537043] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Nov  8 17:18:33 tvermeil kernel: [    0.538312] sd 0:0:0:0: [sda] 20971520 512-byte logical blocks: (10.7 GB/10.0 GiB)
+Nov  8 17:18:33 tvermeil kernel: [    0.539330] sd 0:0:0:0: [sda] Write Protect is off
+Nov  8 17:18:33 tvermeil kernel: [    0.539960] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Nov  8 17:18:33 tvermeil kernel: [    0.540078] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov  8 17:18:33 tvermeil kernel: [    0.541347] sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Nov  8 17:18:33 tvermeil kernel: [    0.542019] cdrom: Uniform CD-ROM driver Revision: 3.20
+Nov  8 17:18:33 tvermeil kernel: [    0.542818] sr 2:0:0:0: Attached scsi CD-ROM sr0
+Nov  8 17:18:33 tvermeil kernel: [    0.543039] sr 2:0:0:0: Attached scsi generic sg1 type 5
+Nov  8 17:18:33 tvermeil kernel: [    0.567952]  sda: sda1 sda2 sda3 sda4
+Nov  8 17:18:33 tvermeil kernel: [    0.568866] sd 0:0:0:0: [sda] Attached SCSI disk
+Nov  8 17:18:33 tvermeil kernel: [    0.589127] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:8b:d4:28
+Nov  8 17:18:33 tvermeil kernel: [    0.589616] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Nov  8 17:18:33 tvermeil kernel: [    0.940170] e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:cd:bd:ce
+Nov  8 17:18:33 tvermeil kernel: [    0.940576] e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Nov  8 17:18:33 tvermeil kernel: [    0.941064] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+Nov  8 17:18:33 tvermeil kernel: [    0.941642] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Nov  8 17:18:33 tvermeil kernel: [    0.942735] sky2: driver version 1.30
+Nov  8 17:18:33 tvermeil kernel: [    0.943359] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Nov  8 17:18:33 tvermeil kernel: [    0.943979] ehci-pci: EHCI PCI platform driver
+Nov  8 17:18:33 tvermeil kernel: [    0.944552] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov  8 17:18:33 tvermeil kernel: [    0.945064] ohci-pci: OHCI PCI platform driver
+Nov  8 17:18:33 tvermeil kernel: [    0.946302] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Nov  8 17:18:33 tvermeil kernel: [    0.946936] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Nov  8 17:18:33 tvermeil kernel: [    0.948381] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Nov  8 17:18:33 tvermeil kernel: [    1.001400] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Nov  8 17:18:33 tvermeil kernel: [    1.002080] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  8 17:18:33 tvermeil kernel: [    1.003071] usb usb1: Product: OHCI PCI host controller
+Nov  8 17:18:33 tvermeil kernel: [    1.003667] usb usb1: Manufacturer: Linux 4.13.0-thor_kernel-tvermeil ohci_hcd
+Nov  8 17:18:33 tvermeil kernel: [    1.004985] usb usb1: SerialNumber: 0000:00:06.0
+Nov  8 17:18:33 tvermeil kernel: [    1.005660] hub 1-0:1.0: USB hub found
+Nov  8 17:18:33 tvermeil kernel: [    1.006066] hub 1-0:1.0: 12 ports detected
+Nov  8 17:18:33 tvermeil kernel: [    1.006856] uhci_hcd: USB Universal Host Controller Interface driver
+Nov  8 17:18:33 tvermeil kernel: [    1.007290] usbcore: registered new interface driver usblp
+Nov  8 17:18:33 tvermeil kernel: [    1.007784] usbcore: registered new interface driver usb-storage
+Nov  8 17:18:33 tvermeil kernel: [    1.008642] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Nov  8 17:18:33 tvermeil kernel: [    1.010700] serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov  8 17:18:33 tvermeil kernel: [    1.011272] serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov  8 17:18:33 tvermeil kernel: [    1.011992] mousedev: PS/2 mouse device common for all mice
+Nov  8 17:18:33 tvermeil kernel: [    1.012872] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Nov  8 17:18:33 tvermeil kernel: [    1.015229] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Nov  8 17:18:33 tvermeil kernel: [    1.016006] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Nov  8 17:18:33 tvermeil kernel: [    1.016871] device-mapper: ioctl: 4.36.0-ioctl (2017-06-09) initialised: dm-devel@redhat.com
+Nov  8 17:18:33 tvermeil kernel: [    1.018232] hidraw: raw HID events driver (C) Jiri Kosina
+Nov  8 17:18:33 tvermeil kernel: [    1.018958] usbcore: registered new interface driver usbhid
+Nov  8 17:18:33 tvermeil kernel: [    1.019604] usbhid: USB HID core driver
+Nov  8 17:18:33 tvermeil kernel: [    1.020192] Netfilter messages via NETLINK v0.30.
+Nov  8 17:18:33 tvermeil kernel: [    1.020862] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Nov  8 17:18:33 tvermeil kernel: [    1.021066] ctnetlink v0.93: registering with nfnetlink.
+Nov  8 17:18:33 tvermeil kernel: [    1.021411] ip_tables: (C) 2000-2006 Netfilter Core Team
+Nov  8 17:18:33 tvermeil kernel: [    1.022894] kworker/u2:0 (65) used greatest stack depth: 14816 bytes left
+Nov  8 17:18:33 tvermeil kernel: [    1.023692] Initializing XFRM netlink socket
+Nov  8 17:18:33 tvermeil kernel: [    1.024194] NET: Registered protocol family 10
+Nov  8 17:18:33 tvermeil kernel: [    1.025011] Segment Routing with IPv6
+Nov  8 17:18:33 tvermeil kernel: [    1.025563] ip6_tables: (C) 2000-2006 Netfilter Core Team
+Nov  8 17:18:33 tvermeil kernel: [    1.026097] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Nov  8 17:18:33 tvermeil kernel: [    1.026797] NET: Registered protocol family 17
+Nov  8 17:18:33 tvermeil kernel: [    1.028241] Key type dns_resolver registered
+Nov  8 17:18:33 tvermeil kernel: [    1.028914] sched_clock: Marking stable (1028089258, 0)->(1163806700, -135717442)
+Nov  8 17:18:33 tvermeil kernel: [    1.029961] registered taskstats version 1
+Nov  8 17:18:33 tvermeil kernel: [    1.031064]   Magic number: 9:599:337
+Nov  8 17:18:33 tvermeil kernel: [    1.031788] tty tty58: hash matches
+Nov  8 17:18:33 tvermeil kernel: [    1.032342] console [netcon0] enabled
+Nov  8 17:18:33 tvermeil kernel: [    1.032766] netconsole: network logging started
+Nov  8 17:18:33 tvermeil kernel: [    1.033654] PM: Hibernation image not present or could not be loaded.
+Nov  8 17:18:33 tvermeil kernel: [    1.033656] ALSA device list:
+Nov  8 17:18:33 tvermeil kernel: [    1.034226]   No soundcards found.
+Nov  8 17:18:33 tvermeil kernel: [    1.188328] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x28b18f61622, max_idle_ns: 440795302735 ns
+Nov  8 17:18:33 tvermeil kernel: [    1.222202] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Nov  8 17:18:33 tvermeil kernel: [    1.223891] md: Waiting for all devices to be available before autodetect
+Nov  8 17:18:33 tvermeil kernel: [    1.224652] md: If you don't use raid, use raid=noautodetect
+Nov  8 17:18:33 tvermeil kernel: [    1.225766] md: Autodetecting RAID arrays.
+Nov  8 17:18:33 tvermeil kernel: [    1.226419] md: autorun ...
+Nov  8 17:18:33 tvermeil kernel: [    1.226991] md: ... autorun DONE.
+Nov  8 17:18:33 tvermeil kernel: [    1.229821] EXT4-fs (sda3): couldn't mount as ext3 due to feature incompatibilities
+Nov  8 17:18:33 tvermeil kernel: [    1.256997] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+Nov  8 17:18:33 tvermeil kernel: [    1.258030] VFS: Mounted root (ext4 filesystem) readonly on device 8:3.
+Nov  8 17:18:33 tvermeil kernel: [    1.259557] devtmpfs: mounted
+Nov  8 17:18:33 tvermeil kernel: [    1.260860] Freeing unused kernel memory: 1184K
+Nov  8 17:18:33 tvermeil kernel: [    1.262177] Write protecting the kernel read-only data: 14336k
+Nov  8 17:18:33 tvermeil kernel: [    1.263033] Freeing unused kernel memory: 544K
+Nov  8 17:18:33 tvermeil kernel: [    1.264941] Freeing unused kernel memory: 924K
+Nov  8 17:18:33 tvermeil kernel: [    1.393932] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Nov  8 17:18:33 tvermeil kernel: [    1.585423] rc (74) used greatest stack depth: 13784 bytes left
+Nov  8 17:18:33 tvermeil kernel: [    1.597491] wc (75) used greatest stack depth: 13000 bytes left
+Nov  8 17:18:33 tvermeil kernel: [    1.639727] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Nov  8 17:18:33 tvermeil kernel: [    1.640388] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Nov  8 17:18:33 tvermeil kernel: [    1.641152] usb 1-1: Product: USB Tablet
+Nov  8 17:18:33 tvermeil kernel: [    1.641878] usb 1-1: Manufacturer: VirtualBox
+Nov  8 17:18:33 tvermeil kernel: [    1.655089] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Nov  8 17:18:33 tvermeil kernel: [    1.657095] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Nov  8 17:18:33 tvermeil kernel: <30>[    2.015789] udevd[181]: starting version 3.2.1
+Nov  8 17:18:33 tvermeil kernel: <30>[    2.138828] udevd[182]: starting eudev-3.2.1
+Nov  8 17:18:33 tvermeil kernel: [    2.226260] clocksource: Switched to clocksource tsc
+Nov  8 17:18:33 tvermeil kernel: [    2.229945] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Nov  8 17:18:33 tvermeil kernel: [    2.233137] e1000 0000:00:08.0 enp0s8: renamed from eth1
+Nov  8 17:18:33 tvermeil kernel: [    2.382844] Adding 1048572k swap on /dev/sda2.  Priority:1 extents:1 across:1048572k 
+Nov  8 17:18:33 tvermeil kernel: [    2.497529] random: crng init done
+Nov  8 17:18:33 tvermeil kernel: [    2.513991] EXT4-fs (sda3): re-mounted. Opts: (null)
+Nov  8 17:18:33 tvermeil kernel: [    2.719193] EXT4-fs (sda3): re-mounted. Opts: (null)
+Nov  8 17:18:33 tvermeil kernel: [    3.487630] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Nov  8 17:18:33 tvermeil kernel: [    3.489348] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  8 17:18:33 tvermeil kernel: [    3.490578] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Nov  8 17:18:34 tvermeil kernel: [    3.524824] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Nov  8 17:18:34 tvermeil kernel: [    3.526258] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  8 17:18:34 tvermeil kernel: [    3.527634] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready

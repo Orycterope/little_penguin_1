@@ -1,0 +1,13 @@
+A patch to change the EXTRAVERSION of the root Makefile
+
+--- Makefile	2017-09-03 22:56:17.000000000 +0200
++++ Makefile	2017-11-08 17:09:44.853602877 +0100
+@@ -1,7 +1,7 @@
+ VERSION = 4
+ PATCHLEVEL = 13
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -thor_kernel
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
