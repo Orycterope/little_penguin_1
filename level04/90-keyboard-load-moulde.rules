@@ -1,0 +1,9 @@
+# /etc/udev/rules.d/90-keyboard-load-module: Loads a specified module when a keyboard is plugged in
+# Used for little_penguin_1 project
+
+# bIterfaceClass	= 03 (HID)
+# bIterfaceProtocol	= 01 (Keyboard)
+
+ACTION=="add", ATTRS{bInterfaceClass}=="03", ATTRS{bInterfaceProtocol}=="01", RUN+="/sbin/insmod /root/little_penguin_1/level04/hello_world.ko"
+
+# End
