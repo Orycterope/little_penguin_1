@@ -7,12 +7,14 @@ MODULE_AUTHOR("Thomas Vermeilh <thomas.vermeilh@gmail.com>");
 MODULE_DESCRIPTION("Hello World module");
 MODULE_VERSION("0.1");
 
-static int __init hello_init(void) {
+static int __init hello_init(void)
+{
 	printk(KERN_INFO "Hello world !\n");
-	return (0);
+	return 0;
 }
 
-static void __exit hello_cleanup(void) {
+static void __exit hello_cleanup(void)
+{
 	printk(KERN_INFO "Cleaning up module.\n");
 }
 
