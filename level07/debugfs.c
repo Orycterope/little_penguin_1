@@ -34,10 +34,7 @@ void ft_delete_debugfs_entries(void)
 {
 	delete_foo_file(&ft_debugfs_entries);
 
-	if (ft_debugfs_entries.jiffies_file)
-		debugfs_remove(ft_debugfs_entries.jiffies_file);
-	if (ft_debugfs_entries.id_file)
-		debugfs_remove(ft_debugfs_entries.id_file);
-	if (ft_debugfs_entries.dir)
-		debugfs_remove(ft_debugfs_entries.dir);
+	debugfs_remove(ft_debugfs_entries.jiffies_file);
+	debugfs_remove(ft_debugfs_entries.id_file);
+	debugfs_remove(ft_debugfs_entries.dir);
 }
